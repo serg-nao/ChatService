@@ -17,7 +17,7 @@ fun main() {
 }
 
 class ChatService{
-    private val chats = hashMapOf<String, Chat>()
+    val chats = hashMapOf<String, Chat>()
     private var chatId = ""
     private val myUserId = 0
 
